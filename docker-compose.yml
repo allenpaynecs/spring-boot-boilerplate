@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:18.0-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+  web:
+    build: .
+    container_name: main_application
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db
