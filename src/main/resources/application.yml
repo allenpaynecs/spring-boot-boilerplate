@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://application_db:5432/application
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+logging:
+  level:
+    root: INFO
+    org.springframework.jdbc: DEBUG
+    org.springframework.autoconfigure.logging: DEBUG
+    org.flywaydb: DEBUG
+
+app:
+  test:
+    property: present
