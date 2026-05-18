@@ -1,5 +1,5 @@
 create schema if not exists application;
 
-create table if not exist application.users (
+create table if not exists application.users (
 id bigint
 );
