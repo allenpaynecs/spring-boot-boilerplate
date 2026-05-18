@@ -3,8 +3,15 @@ Simple Spring Boot boilerplate to set up the application, contains a database an
 
 The end goal of this project will be to have a boilerplate that is easily copied into a new repository, for very quick starting of new Spring Boot projects.
 
+# Prerequisites
+1. A Java Development Kit (JDK) and Java Runtime Environment (JRE) for Java Version 26.
+2. An IDE of your choosing
+3. Docker
+4. Git 
+
+
 # Instruction For Use
-1. Fork / Pull the code
-2. run `mvn clean package`
-3. run `docker compose up`
+1. Fork and Pull the code
+2. run `mvn clean package` - to generate the .JAR file which will be deployed to docker.
+3. run `docker compose up` - this uses the docker-compose file, sets up the postgres and application containers. The application image is generated from the provided Dockerfile, whereas the postgres container uses a publicly available image.
 4. You will now have 2 docker containers running with your application in one, and the database in another.
