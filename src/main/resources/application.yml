@@ -14,7 +14,3 @@ logging:
     org.springframework.jdbc: DEBUG
     org.springframework.autoconfigure.logging: DEBUG
     org.flywaydb: DEBUG
-
-app:
-  test:
-    property: present
