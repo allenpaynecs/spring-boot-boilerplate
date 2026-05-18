@@ -5,9 +5,10 @@ The end goal of this project will be to have a boilerplate that is easily copied
 
 # Prerequisites
 1. A Java Development Kit (JDK) and Java Runtime Environment (JRE) for Java Version 26.
-2. An IDE of your choosing
-3. Docker
-4. Git 
+2. An IDE of your choosing [I use IntelliJ](https://www.jetbrains.com/idea/)
+3. [Docker](https://www.docker.com/products/docker-desktop/)
+4. [Git](https://git-scm.com/install/windows) 
+5. [Maven](https://maven.apache.org/download.cgi)
 
 
 # Instruction For Use
