@@ -2,10 +2,10 @@ services:
   db:
     image: postgres:18.0-alpine
     restart: always
-    container_name: application_db
+    container_name: application_name_db
     environment:
-      POSTGRES_DB: application
-      POSTGRES_USERNAME: postgres
+      POSTGRES_DB: application_name
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
